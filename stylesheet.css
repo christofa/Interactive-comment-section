@@ -1,0 +1,360 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 28% 0 28%;
+    height: 100vh;
+    background-color: hsl(228, 33%, 97%);
+}
+
+.plus {
+    position: relative;
+    top: -14px
+}
+
+.plus:hover {
+    cursor: pointer
+}
+
+.minus {
+    position: relative;
+    top: 15px;
+}
+
+.minus:hover {
+    cursor: pointer
+}
+
+#cover {
+    display: none;
+}
+
+
+                /* Section 1 */
+
+.container1, .container2 {
+    display: flex;
+    border: 1px solid black;
+    font-size: 15px;
+    border-radius: 5px;
+    padding: 12px;
+    margin: 10px;
+    background-color: hsl(0, 0%, 100%);
+    border-color: white;
+}
+
+.tig1, .fig1 {
+    border: 1px solid black;
+    border-radius: 7px;
+    text-align: center;
+    margin: 0 15px 0 5px;
+    padding: 16px 5px;
+    background-color: hsl(223, 19%, 93%);
+    border-color: white;
+}
+
+.tig3, .fig3 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+
+.btn1 {
+    border: none;
+    background-color: white;
+    color: hsl(238, 40%, 52%);
+}
+
+.btn1:hover {
+    cursor: pointer;
+    color: hsl(239, 57%, 85%);
+}
+
+.head1 {
+    position: relative;
+    top: -10px;
+    margin-left: 5px;
+}
+
+
+                /* section 2 */
+
+#wrapper2 {
+    margin-left: 8%;
+}
+
+.container3, .container4 {
+    display: flex;
+    border: 1px solid black;
+    font-size: 15px;
+    border-radius: 5px;
+    padding: 12px;
+    margin: 10px;
+    background-color: hsl(0, 0%, 100%);
+    border-color: white;
+}
+
+.rig1, .dig1 {
+    border: 1px solid white;
+    border-radius: 7px;
+    text-align: center;
+    margin: 0 15px 0 5px;
+    padding: 16px 5px;
+    background-color: hsl(223, 19%, 93%);
+}
+
+.rig3, .dig3 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+
+.dig4 {
+    border: 1px solid hsl(238, 40%, 52%);
+    border-radius: 5px;
+    width: 200px;
+    padding: 1px 5px 5px 5px;
+    margin: 5px;
+    background-color: hsl(238, 40%, 52%);
+    color: white;
+   
+}
+
+.btn2, .btn3 {
+    border: none;
+    background-color: white;
+    color: hsl(238, 40%, 52%);
+}
+
+.btn2:hover{
+    color: hsl(239, 57%, 85%)
+}
+
+.btn3:hover {
+    color: hsl(239, 57%, 85%)
+}
+
+.btn3 {
+    margin-left: 20%;
+}
+
+.head2 {
+    position: relative;
+    top: -10px;
+    margin-left: 5px;
+}
+
+.num {
+    color: hsl(238, 46%, 50%);
+}
+
+.vl {
+    border-left: 2px solid hsl(223, 19%, 93%);
+    height: 250px;
+    position: absolute;
+    left: 31%;
+    margin-left: -3px;
+    top: 295px;
+}
+
+/* COMMENT SECTION */
+#footer {
+    border: 1px solid white;
+    font-size: 15px;
+    border-radius: 5px;
+    padding: 12px;
+    background-color: hsl(0, 0%, 100%);
+}
+
+#comment-input {
+    width: 360px;
+    padding: 25px 15px;
+    margin: 10px;
+}
+
+.vig {
+    width: 80px;
+    background-color: hsl(238, 40%, 52%);
+    border-color: hsl(238, 40%, 52%);
+    color: white;
+    border-style: none;
+    padding: 8px;
+    border-radius: 7px;
+    position: relative;
+    top: -14px;
+}
+
+.vig:hover{
+    cursor: pointer;
+    background-color: hsl(239, 57%, 85%);
+}
+
+.container-response {
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 12px;
+    margin: 10px;
+    background-color: hsl(0, 0%, 100%);
+}
+
+#resp1,#resp2,#resp3 {
+    display: none;
+}
+
+.response{
+    width: 362px;
+    padding: 25px 15px;
+    margin: 10px;
+}
+
+.response1 {
+    width: 300px;
+    padding: 25px 15px;
+    margin: 10px;
+}
+
+.reply {
+    width: 80px;
+    background-color: hsl(238, 40%, 52%);
+    border-color: hsl(238, 40%, 52%);
+    color: white;
+    border-style: none;
+    padding: 10px;
+    border-radius: 7px;
+    position: relative;
+    top: -14px;
+}
+
+.reply:hover {
+    cursor: pointer;
+    background-color: hsl(239, 57%, 85%);
+}
+
+/* FORM SECTION */
+.container {
+    padding: 25px;
+    background-color: hsl(223, 19%, 93%);
+    border-radius: 10px;
+}
+
+.btn5 {
+    background-color: hsl(238, 40%, 52%);
+    width: 100%;
+    color: white;
+    padding: 15px;
+    margin: 10px 0px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    border-style: groove;
+    border-color: hsl(238, 40%, 52%); 
+} 
+
+.btn5:hover {
+    opacity: 0.7;
+}
+
+.register { 
+    display: none;
+}
+
+.msg {  
+    display: none;
+    border: 1px solid white;
+    background-color: red;
+    color: white;
+    padding: 5px 0 5px 15px;
+    margin: 10px 0;
+    width: 97%;
+}
+
+.inputs, .inputs1, .inputs2 {
+    width: 100%;
+    margin: 8px 0;
+    padding: 12px 20px;
+    display: inline-block;
+    border: 2px solid hsl(211, 10%, 45%);
+    box-sizing: border-box;
+}
+
+.registerbtn {
+    width: auto;
+    padding: 10px 18px;
+    margin: 10px 5px;
+    background-color: hsl(238, 40%, 52%);
+    color: white;
+    border-radius: 5px;
+    border-color: hsl(238, 40%, 52%);
+}
+
+form {
+    border: 3px solid hsl(228, 33%, 97%);
+    
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modalContent {
+    font-size: 18px;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    border-radius: 7px;
+    width: 25%;
+}
+
+.content {
+    margin: 10px;
+}
+
+.modalContent button {
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    color: white;
+    padding: 12px 0 12px 0;
+    width: 42%;
+    margin: 10px;
+
+}
+
+.del {
+    background-color: #888;
+    padding: 20px 0;
+}
+
+.del:hover {
+    background-color: hsl(223, 19%, 93%);
+    cursor: pointer;
+}
+
+.cancel {
+    background-color: hsl(358, 79%, 66%);
+}
+
+.cancel:hover {
+    background-color: hsl(357, 100%, 86%); 
+    cursor: pointer;
+}
+
+ 
+ 
+
